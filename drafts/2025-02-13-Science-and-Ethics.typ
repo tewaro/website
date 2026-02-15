@@ -1,0 +1,97 @@
+---
+title: Science and a Lack of Ethics
+author: tewaro
+bibliography: ../bib/bilio.bib
+biblio: biblio.bib
+bib-style: ieee.csl
+link-citations: true
+reference-section-title: Bibliography
+---
+
+= Intro
+Conspiracy theorists and scientists have a really key thing in common: They both focus on
+questioning the world around them. The *key* difference is the supposed to be the philosophical
+grounding. Scientists are supposed to accept the key assumptions of Occam's razor @occam and
+provide support to the academic institutions.
+
+Right now, at least in the field of computer science, Scientists have abandoned upholding academic
+institutions. Completely and Utterly.
+
+In my field of systems we've produced for the world the technical designs for everything from the
+smallest chip used in tiny GPS trackers to the scale of the internet. We know how to build these
+things and measure their impact. We know how to reshape all the technology that people interact with
+on a daily basis. We know how to do all this and measure it.
+
+It might be weird that I'm seemingly conflating the people in CS Research and Industry, but that is
+the crux of the problem... Industry has gotten a LOT of people who do want to do Scientific
+Research, because there are genuine problems that require Research to solve.
+
+These are also the same people creating the systems that actually run your ChatGPT or Claude query.
+They map your request through the internet to a specific computer somewhere figure out how to run
+this ''LLM'' thing and respond with the output. All of that happens in a matter of milliseconds so
+it looks like the model is doing something constantly. So now ask yourself if there are all of these
+smart people working on this surely they must be paying attention to the massive environmental cost.
+Surely, all these smart people wouldn't just leave us high and dry to die?
+
+Spoiler alert history tells us that they absolutely will, not that they won't try to fix it.
+Anthropic is the latest in attempts to make what they view as inevitable palatable.
+The recent response to the Superbowl commercial about ads is just the latest in enshitification.
+''We won't ever add ads'', seems to be a hollow and empty promise. The only system I trusted not to
+have ads was the governments, until a naked Fascist destroyed the separation that exists between
+politics and citizen support in the government.
+
+On that topic the initial part of this post has been slightly disingenuous. There are actually a
+really good group of CS systems folks that do care about improving the daily lives of people.
+However, these people generally don't work at any company you have ever heard of, or even the ones
+popping off in the Fortune 500 space. I'm taking about national laboratories. This is where the job
+of improving people's lives by filling out the infrastructure of government actually happens. You
+want COVID vaccine data secure? National Labs. You want your electricity and your power cheaper,
+faster, and more efficiently? National Labs. You want nukes not to blow us all to kingdom come?
+National Labs.
+
+So after this brief aside, reader, you might be wondering what exactly does upholding academic
+institutions mean? In a philosophical sense it means when scientists working on the cutting edge of
+a field observe that certain work could have negative impacts, the community as a consensus whole
+should come out and condemn the people engaging in such behavior. Condemnation serves as a warning
+to people who will consume and use that work. It also serves as a clear indication of what the
+best available scientific knowledge has to offer discussions on politics and practical regulation
+for the benefit of individual people. An example of this effort can be found in our sister field,
+Security. The security community sent an open letter about the fact that the elections were secure,
+to combat the fascist-in-chiefs ''Big Lie''.
+
+Concretely, upholding the academic institutions means coming to terms with the fact that our choices
+might kill all of you. Because those same choices will pay for our lifestyle improvements while the
+rest of society discombobulates and people die. Eventually, the work we do will come back to bite
+us, but there are a lot of non-systems people that'll have to die before we feel it. At the same
+time, every professor in my field *already knows this* and yet they will still submit or work on
+countless papers that speed up the destruction of society. I am not exempt from this critique, in
+order to graduate I will do the same. We know we are all gonna choke on carbon. We know that human
+contact will slowly be replaced by LLMs and everything can be monitored all the time. But where
+ethics should have us actually do something, we are content to cheer-lead the destruction. As we
+have been for nearly 2 decades, before the incidence of LLM popularity.
+
+It's key to understand, this is not a new problem. LLMs are just the new flavor of it. This rant
+isn't anti LLM. They can genuinely be used to help people. I use them periodically to automate tasks
+that I can't write tools for, and to help me understand certain code patterns I'm not familiar with,
+but they aren't a panacea to everything. They are tools, some of the most useful in history perhaps.
+But at the end of the day a tool should be only as good or bad as its user. Today using any of the
+LLM services people are most familiar with is, very bad for the environment and for the users mental
+health, and countless other things.
+
+= How To Solve this Problem
+
+== Brief Commentary on Dumb Blogs
+
+So I absolutely hate blog posts or articles that just say here is a problem, idk how to solve it,
+whoops. I also hate when journalists do that, and that's probably because I don't get the point of
+news that doesn't explain how I should change a bad thing that is happening. So I'm going to tell
+you briefly what we can do as a society. Then I'm going to tell you what you can do, if you want to
+make up for this error in judgment that my entire field is collectively having. What I am not doing
+is telling you that you should do these things. Live your life how you want. But if you do want to
+have an impact on this problem, this is a prescription that you can follow to help. I take pride in
+being able to break down problems into digestible pieces, so if these steps don't feel like
+something you could do on a day where you don't have much to do, let me know in the comments (once I
+have them up).
+
+= Bibliography
+#bibliography("bib/biblio.bib", style: "ieee")
