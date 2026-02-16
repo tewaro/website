@@ -139,3 +139,35 @@ article .header {
     font-size: 1.8rem;
   }
 }
+
+/*
+ * Post tags
+ */
+
+ul.tags {
+    list-style: none;
+    padding: 0;
+}
+
+ul.tags li {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+ul.tags li:first-child {
+    margin-left: 0;
+}
+
+ul.tags a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul.tags a > * {
+    margin-right: 0em;
+}
+
+/*ul.tags span {
+    font-size: 0.6em;
+}*/

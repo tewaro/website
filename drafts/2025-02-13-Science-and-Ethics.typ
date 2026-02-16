@@ -6,19 +6,21 @@ biblio: biblio.bib
 bib-style: ieee.csl
 link-citations: true
 reference-section-title: Bibliography
+tags: technical, society, epistemology, science, non-technical
 ---
 
 = Intro
-Conspiracy theorists and scientists have a really key thing in common: They both focus on
-questioning the world around them. The *key* difference is the supposed to be the philosophical
-grounding. Scientists are supposed to accept the key assumptions of Occam's razor @occam and
-provide support to the academic institutions.
 
-Right now, at least in the field of computer science, Scientists have abandoned upholding academic
+Conspiracy theorists and scientists have a key thing in common: They both focus on questioning the
+world around them. The difference is supposed to be the philosophical grounding. Scientists are
+supposed to accept the assumptions of Occam's razor @occam and provide support to academic
+institutions.
+
+Right now, at least in the field of computer science, scientists have abandoned upholding academic
 institutions. Completely and Utterly.
 
-In my field of systems we've produced for the world the technical designs for everything from the
-smallest chip used in tiny GPS trackers to the scale of the internet. We know how to build these
+In my field of systems we've produced the technical designs for everything from the smallest chip
+used in tiny GPS trackers to machines that make up the internet itself. We know how to build these
 things and measure their impact. We know how to reshape all the technology that people interact with
 on a daily basis. We know how to do all this and measure it.
 
@@ -27,18 +29,18 @@ the crux of the problem... Industry has gotten a LOT of people who do want to do
 Research, because there are genuine problems that require Research to solve.
 
 These are also the same people creating the systems that actually run your ChatGPT or Claude query.
-They map your request through the internet to a specific computer somewhere figure out how to run
-this ''LLM'' thing and respond with the output. All of that happens in a matter of milliseconds so
-it looks like the model is doing something constantly. So now ask yourself if there are all of these
-smart people working on this surely they must be paying attention to the massive environmental cost.
+They map your request through the internet to a specific computer somewhere, figure out how to run
+this ''LLM'' thing, and respond with the output. All of that happens in a matter of milliseconds so
+it looks like the model is always doing something. So now ask yourself: If there are all of these
+smart people working on this surely they must be paying attention to the massive environmental cost?
 Surely, all these smart people wouldn't just leave us high and dry to die?
 
-Spoiler alert history tells us that they absolutely will, not that they won't try to fix it.
-Anthropic is the latest in attempts to make what they view as inevitable palatable.
-The recent response to the Superbowl commercial about ads is just the latest in enshitification.
-''We won't ever add ads'', seems to be a hollow and empty promise. The only system I trusted not to
-have ads was the governments, until a naked Fascist destroyed the separation that exists between
-politics and citizen support in the government.
+Spoiler alert: History tells us that they absolutely will, not that they won't try to fix it.
+Anthropic is the latest in a series of attempts to make what they view as inevitable palatable. The
+recent response to the Superbowl commercial about ads is just the latest in enshitification. ''We
+won't ever add ads'', seems to be a hollow and empty promise. The only system I trusted not to have
+ads was that of the government, until a naked Fascist (Trump) destroyed the separation that exists
+between politics and citizen support in the government.
 
 On that topic the initial part of this post has been slightly disingenuous. There are actually a
 really good group of CS systems folks that do care about improving the daily lives of people.
@@ -51,13 +53,13 @@ National Labs.
 
 So after this brief aside, reader, you might be wondering what exactly does upholding academic
 institutions mean? In a philosophical sense it means when scientists working on the cutting edge of
-a field observe that certain work could have negative impacts, the community as a consensus whole
-should come out and condemn the people engaging in such behavior. Condemnation serves as a warning
-to people who will consume and use that work. It also serves as a clear indication of what the
-best available scientific knowledge has to offer discussions on politics and practical regulation
-for the benefit of individual people. An example of this effort can be found in our sister field,
-Security. The security community sent an open letter about the fact that the elections were secure,
-to combat the fascist-in-chiefs ''Big Lie''.
+a field observe that certain work could have negative impacts, the community consensus should come
+out and condemn the people engaging in such behavior. Condemnation serves as a warning to people who
+will consume and use that work. It also serves as a clear indication of what the best available
+scientific knowledge has to offer discussions on politics and practical regulation for the benefit
+of individual people. An example of this effort can be found in our sister field, Security. The
+security community sent an open letter about the fact that the elections were secure, to combat the
+fascist-in-chiefs ''Big Lie''.
 
 Concretely, upholding the academic institutions means coming to terms with the fact that our choices
 might kill all of you. Because those same choices will pay for our lifestyle improvements while the
@@ -73,10 +75,10 @@ have been for nearly 2 decades, before the incidence of LLM popularity.
 It's key to understand, this is not a new problem. LLMs are just the new flavor of it. This rant
 isn't anti LLM. They can genuinely be used to help people. I use them periodically to automate tasks
 that I can't write tools for, and to help me understand certain code patterns I'm not familiar with,
-but they aren't a panacea to everything. They are tools, some of the most useful in history perhaps.
-But at the end of the day a tool should be only as good or bad as its user. Today using any of the
-LLM services people are most familiar with is, very bad for the environment and for the users mental
-health, and countless other things.
+but they aren't a panacea to everything. They are tools, perhaps, some of the most useful in
+history. But at the end of the day a tool should be only as good or bad as its user. Today, using
+any of the LLM services people are most familiar with is very bad for the environment and for the
+users mental health, and countless other things.
 
 = How To Solve this Problem
 
