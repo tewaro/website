@@ -6,6 +6,7 @@ biblio: biblio.bib
 bib-style: ieee.csl
 link-citations: true
 reference-section-title: Bibliography
+tags: technical, society, epistemology, science
 ---
 
 = Intro
