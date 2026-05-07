@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://use.fontawesome.com/releases/v7.2.0/css/all.css" rel="stylesheet">
+        <title>Aditya Tewari - Introduction to Developer Experience</title>
+        <link rel="stylesheet" href="../css/default.css" />
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="../">Aditya Tewari</a>
+            </div>
+            <nav>
+                <a href="../">Home</a>
+                <a href="../about.html">About</a>
+                <a href="../contact.html">Contact</a>
+                <a href="../archive.html">Archive</a>
+            </nav>
+        </header>
+
+        <main role="main">
+            <h1>Introduction to Developer Experience</h1>
+            <article>
+    <ul class="tags"><li><a href="../tags/technical.html" title="Navigate posts by tag: technical"><span class="fa fa-tag"> </span> technical</a></li><li><a href="../tags/teaching.html" title="Navigate posts by tag: teaching"><span class="fa fa-tag"> </span> teaching</a></li><li><a href="../tags/epistomology.html" title="Navigate posts by tag: epistomology"><span class="fa fa-tag"> </span> epistomology</a></li><li><a href="../tags/dx.html" title="Navigate posts by tag: dx"><span class="fa fa-tag"> </span> dx</a></li></ul>
+    <section class="header">
+        Started on March  2, 2025.
+        Updated on 2026-03-02 15:46 UTC
+        
+            by tewaro
+        
+    </section>
+    <section>
+        <h1>Intro</h1>
+<p>This discussion is about the study and understanding of developer experience in systems software.
+Before we dive deep into the topic let’s understand why we even care about developer experience.
+Very inuitively, this is about getting people one level above our system to use our system. In order
+to do this we need to spend some time actually understanding the world of software engineering. As
+many of you have had internships, some of you maybe familiar with a few of these problems, however I
+want to walk you through the day-to-day of a few different enginneers working in the field.
+This is going to be a discussion of real people in my life with several of the details enhanced to
+make the points significantly clearer. This way we keep their identities anonymous.</p>
+<h1>Characters</h1>
+<p>First we have Atlantis, she’s an engineer at Google working on the kernel team whose day to day is
+to be responsible for the policies for energy saving. Then we have Billy, who serves on a team at
+the heart of Cloudflare’s serverless functions environment, Workers on the runtime of that system.
+Finally we have, Charlie who works at Google as a site reliability engineer. These three engineers
+inhabit the spectrum of Development versus Operations. A topic we will delve into further later.</p>
+<h2>Day-to-Day</h2>
+<p>Atlantis spends her days chasing down bugs, developing new features, and designing policies.
+This looks like spending a great deal of time designing abstractions and creating tests to ensure
+that the expected behavior results in the correct and most efficient scheduling. What do the <strong>users</strong>
+of that code look like? Who are these abstractions and new features for and how does that inform her
+day to day workflow?</p>
+<h1>Why Should You Care</h1>
+<p>Understanding what the developer experience for people using your system is like also helps you
+comprehend what kind of abstractions you should design. If you want people to actually use your
+system, you have to understand how they will experience that system. There is a lot of different
+flow diagrams that describe what that process looks like and a ton of ways to break down this
+process. But keep in mind very clearly at the end of the day in systems we are generally creating
+our abstractions for some set of other developers. Those developers can be tempermental and as their
+workflow changes so to must we re-examine our approaches.</p>
+<h1>Key Design Principles</h1>
+<p>Many of you may have heard of the KISS principle Keep it Simple Stupid, this has a pretty
+substantial corollary in systems design: ‘‘Worse is Better’’. This principle is so endemic to
+software design that all the fun scrum stuff in the Agile method became such a meme.</p>
+<p>Before design was done in the waterfall approach where each part of a new system is heavily
+specified almost to an obsessive degree. This is often done for projects where the iteration cost is
+expensive (think large real world engineering). This model was originally adopted by the government
+for the first set of large software projects. However in most cases software is an evolving process.
+So as you release a certain version of the product your users change their mind about what they
+want, and realize that they were inaccurate when describing their requirements in the first place.</p>
+<p>This is something that Atlantis, Billy, and Charlie have to contend with. The changing set of
+requirements and new needs of users will inform what they prioritize day to day and week to week.</p>
+<p>For the rest of this we are going to talk about</p>
+<h2>A brief aside about LLMs</h2>
+<p>LLMs are absolutely dominating the developer sphere and changing how everyone interacts with their
+computer, however it actually re-inforces the</p>
+<h1>Intro</h1>
+<p>When we talk about system’s software we are interested in first and foremost the correctness and
+theoretical properties that the system intends to solve. However, correctness and theoretical
+properties are downstream of a far more important conception: the Developer Experience.
+In our world the actual users of our system are other developers and not the general public.
+This conception is in my opinion the least studied part of Human Computer Interaction (HCI).
+However, it is studied far unlike other forms of interaction because the user are a particular
+sub-category obsessed with a different set of concerns. They all also start with a significantly
+greater technical background. Before we dive any deeper into the world of developer experience, we
+want to understand some characters who exist and have to think within this space. These are close
+friends of mine and I’m going to give you a little window into their experience.</p>
+<h2>Characters</h2>
+<p>First we have Atlantis, she’s an engineer at who works on a kernel team whose day to day is to be
+responsible for the policies in the kernel. Then we have Billy, who serves on a team at the heart of
+Cloudflare’s serverless functions environment, Workers on the runtime of that system. Finally we
+have, Charlie who works at Google as a site reliability engineer. These three engineers inhabit the
+spectrum of Development versus Operations. A topic we will delve into further later.</p>
+<p>Actually Billy and Charlie have the exact same day to day job. The difference lies in the question
+we just asked:</p>
+<table>
+<thead>
+<tr>
+<th><p>Character</p></th>
+<th><p>Who is it for?</p></th>
+<th><p>Deployment Environment</p></th>
+<th><p>Characterize Developer Experience</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>Atlantis</p></td>
+<td><p>App Developers</p></td>
+<td><p>Phone and laptop devices</p></td>
+<td><p>limited testing environment and poor
+performance analysis tools</p></td>
+</tr>
+<tr>
+<td><p>Billy</p></td>
+<td><p>Other Developers and Internal Developers</p></td>
+<td><p>Cloudflare’s Global Network</p></td>
+<td><p>Dedicated
+Build and Test frameworks along with a very immature performance testing framework</p></td>
+</tr>
+<tr>
+<td><p>Charlie</p></td>
+<td><p>Internal folks and other SREs</p></td>
+<td><p>Google’s Global Network</p></td>
+<td><p>Dedicated Build, Test
+infrastructure, along with separate performance infra on a global scale</p></td>
+</tr>
+</tbody>
+</table>
+<p>Before we continue my job as a researcher should be (although academia in my field is quite cooked)
+to improve the day-to-day of one of these folks or all of these folks in each paper.
+So I have to carefully consider each of their developer experiences.</p>
+<h1>The UNIX Philosophy</h1>
+<p>The core tenants are:</p>
+<ol>
+<li><p>’‘Make programs do one thing well. To do a new job, build afresh rather than complicate old programs
+by adding new features.’’</p></li>
+<li><p>’‘Expect the output of every program to become the input to another, as yet unknown, program.
+Don’t clutter output with extraneous information. Avoid stringently columnar or binary input
+formats.’’</p></li>
+<li><p>’‘Design and build software, even operating systems , to be tried early, ideally within weeks.
+Don’t hesitate to throw away the clumsy parts and rebuild them.’’</p></li>
+<li><p>’‘Use tools in preference to unskilled help to lighten a programming task, even if you have to
+detour to build the tools and expect to throw away some of them after you’ve finished using them’’</p></li>
+</ol>
+<p>The philosophy summary: ‘‘Write programs that do one thing and do it well. Write programs to work
+together. Write programs to handle text streams because that is a universal interface.’’</p>
+<p>There are a LOT of different philosophies for other designs. We are specifically talking about UNIX
+because this is an operating systems class.</p>
+<h1>Development And Operations</h1>
+<p>Once you’ve actually developed your operating system, you have to go and somehow set it up so your
+users can actually use this newly created thing. So how do we go about actually operating that
+system.</p>
+<h2>SLAs/SLOs</h2>
+<h2>CI &amp; Testing</h2>
+<h2>HMD &amp; CD</h2>
+<h2>On Call</h2>
+<h3>Platform Abuse</h3>
+<h1>LLMs Change Nothing</h1>
+<h1>Why Companies Are the Way they Are</h1>
+    </section>
+</article>
+
+        </main>
+
+        <footer>
+            Site proudly generated by
+            <a href="http://jaspervdj.be/hakyll">Hakyll</a>
+        </footer>
+    </body>
+</html>
